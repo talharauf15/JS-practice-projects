@@ -4,35 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Photo Gallery</title>
-    <style>
-        body{
-            background: #222;
-            margin: 20px;
-            font-family: Arial, Helvetica, sans-serif;
-            color: white;
-        }
-        .thumbnail img{
-        height: 80px;
-        border: 4px solid #555;
-        padding: 1px;
-        margin: 0 10px 10px 0;
-        }
-
-        .thumbnail img:hover{
-            border: 4px solid #00aaff;
-        }
-        .preview img{
-            border: 4px solid #444;
-            padding: 1px;
-            width: 800px;
-        }
-        .preview img:hover{
-            border: 4px solid #00aaff;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
+    
 </head>
 <body>
     
-    <div class=""></div>
+    <div class="main">
+        <div class="box">
+            <img src="1.jpg" >
+        </div>
+        <div class="box">
+            <img src="2.jpg" >
+        </div>
+        <div class="box">
+            <img src="3.jpg" >
+        </div>
+        <div class="box">
+            <img src="4.jpg" >
+        </div>
+        <div class="box">
+            <img src="5.jpg" >
+        </div>
+    </div>
+
+    <div class="preview-container">
+        <img src="" alt="Preview">
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
